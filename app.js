@@ -37,7 +37,7 @@ const users = [
         if(method === 'GET'){
             if(url === '/ping'){
                 response.writeHead(200, {'Content-Type':'application/json'})
-                response.end(JSON.stringify({message:'userCreated'}))
+                response.end(JSON.stringify({message:"postCreated"}))
             }
         }
     }
